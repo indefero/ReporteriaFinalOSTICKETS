@@ -1,0 +1,458 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if lt IE 7]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie6 no-js"> <![endif]-->
+<!--[if IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie7 no-js"> <![endif]-->
+<!--[if IE 8 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie8 no-js"> <![endif]-->
+<!--[if IE 9 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	
+	
+	<script type="text/javascript">
+		drex_file_name = "ventana_de_busqueda_avanzada.html";
+	</script>
+	
+			<title>Reportes de Tickets y Estadisticas Ventana de B&#x00FA;squeda Avanzada</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/all.css" media="all" />
+	<link rel="stylesheet" href="de_style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="custom.css" type="text/css" media="all" />
+	
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/drexplain.data.index.js"></script>
+	<script type="text/javascript" src="js/all2.js"></script>
+	<script type="text/javascript" src="js/oembed.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function() {
+					$(".oembed").oembed(null, 
+							{
+								embedMethod: "replace_with_new_size"
+							});
+			});
+	</script>
+
+	<style type="text/css">
+  .boton input{
+   
+	-moz-border-radius: 5px 5px 5px 5px;
+   -webkit-border-radius: 5px 5px 5px 5px;
+}
+   .boton input:hover{
+filter:alpha(opacity=90); 
+-moz-opacity: 0.65; 
+opacity: 0.65;
+position: relative; 
+top: -1px;
+cursor:allowed;
+
+}
+
+
+</style>
+
+				</head>
+<body class="b-body">
+<script type="text/javascript">
+//<![CDATA[
+if (document.referrer == "" && navigator.userAgent == "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11")
+{
+    var im = document.createElement("img");
+    im.src = "0";
+    document.body.appendChild(im);
+    
+    $.drex_avoid_load = true;
+}
+//]]>
+</script>
+<div class="b-pageLayout" id="pageLayout">
+<script type="text/javascript">
+//<![CDATA[
+if ($.drex_avoid_load)
+    $("#pageLayout").addClass("hidden");
+else if (1 == 1 && !is_touch_device())
+    $("#pageLayout").addClass("keep-visible");
+//]]>
+</script>
+		<div class="b-pageContent
+		m-pageContent__withoutLeft
+		m-pageContent__withoutRight
+" id="pageContent">
+			<table id="noscriptWarning" style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+				<tr style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+					<td style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+						<noscript><p>To properly display this page you need a browser with JavaScript support.</p></noscript>
+					</td>
+				</tr>
+			</table>
+
+			<div class="b-tree m-tree__contextMenu" id="keywordContextMenu"><table class="b-tree__layout"><tr><td class="b-tree__layoutSide"></td></tr></table></div>
+			<table class="b-pageContent__layout">
+				<tr class="b-pageContent__row m-pageContent__row__header" id="pageContentHeader">
+					<td class="b-pageContent__side m-pageContent__side__header">
+						<div class="p" style="text-align: left; direction: ltr; margin-left: 40%; text-indent: 0px;"><span style="font-size: 16pt;"><strong>Manual de Usuario de Reporteria de Tickets</strong></span></div>
+					</td>
+
+
+ <td><div class="boton" style="text-align: left; direction: ltr; margin-left: -110%; text-indent: 0px;">							
+               <form name="atrass" method="POST"  action="indexTab.php">
+                  <p><input type="submit" name="BTNInicio" id="BTInicio" value="Inicio"  onmousedown="inicio();" Title="Volver a la pagina principal de reporteria de tickets" /></P>  
+                  </form>
+				<?php
+
+			if(isset($_POST['BTNInicio']))
+   				 { ?>
+
+ 				 <script>
+				function inicio(){
+ 			window.location="/report/indexTab.php";
+    			}
+   			 </script>      
+
+  			 <?php
+			 }
+			?>
+		</div></td>
+
+
+				</tr>
+				<tr>
+					<td class="b-pageContent__side">
+					<table id="internal_wrapper"><!-- internal_wrapper -->
+						<tr>
+				
+					<td class="b-pageContent__side m-pageContent__side__left" id="pageContentLeft"></td>
+					<td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
+						<script type="text/javascript">
+						//<![CDATA[
+							if (1 == 1 && !is_touch_device())
+								$("#pageContentMiddle").addClass("hidden");
+						//]]>
+						</script>
+						<div class="b-workZone" id="workZone">
+							<table class="b-workZone__layout">
+								<tr>
+									<td class="b-workZone__side m-workZone__side__nav" id="workZone_nav">
+										<div class="b-workZone__content m-workZone__content__nav" id="workZone_nav_content">
+
+										<div class="b-splitter" id="splitter">
+											<div class="b-splitter__innerPre">
+												<div class="b-splitter__inner">
+													<div class="b-splitter__part m-splitter__part__mainImg"></div>
+													<div class="b-splitter__part m-splitter__part__topImg"></div>
+													<div class="b-splitter__part m-splitter__part__bottomImg"></div>
+													<div class="b-splitter__part m-splitter__part__middleImg"></div>
+												</div>
+
+											</div>
+										</div>
+<div class="b-tabs">
+
+
+
+						<div class="b-tabs__selectorItems">
+
+							<div class="b-tabs__selectorItem m-tabs__selectorItem__selected m-tabs__selectorItem__first" id="tabSelector_menu">
+								<span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__menu"></span>
+								<span class="b-tabs__selectorContent">Men&#x00FA;</span>
+							</div>
+	
+							<div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
+							 	<span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
+							 	<span class="b-tabs__selectorContent">&#x00CD;ndice</span>
+							 </div>
+	
+							<div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
+								<span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
+								<span class="b-tabs__selectorContent">B&#x00FA;squeda</span>
+							</div>
+						</div><!-- /b-tabs__selectorItems -->
+
+						<div class="b-tabs__wrapperItems" id="tabWrapperItems">
+						
+							<div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
+								<div class="b-tabs__wrapperItemInner">
+									<div class="b-tree">
+									</div>								
+								</div>
+								
+							</div><!-- /menu -->
+
+							<div class="b-tabs__wrapperItem" id="tabWrapper_index">
+								<div class="b-tabs__wrapperItemInner">
+									<div class="b-tree"></div></div>
+							</div>
+
+
+							<div class="b-tabs__wrapperItem" id="tabWrapper_search">
+
+		
+
+<div class="b-search m-search__tabs" id="tabs_searchFormWrapper">
+	<form action="#" class="b-search__form">
+		<table class="b-search__layout">
+			<tr>
+				<td class="b-search__side m-search__side__input">
+					<div class="b-search__gap">
+						<label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder">B&#x00FA;squeda</label>
+						<input id="tabs_searchInput" type="text" value="" class="b-search__inputText" />
+					</div>
+				</td>
+				<td class="b-search__side m-search__side__submit">
+					<span class="b-button b-search__button">
+						<span class="b-button__wrapper">
+							<span class="b-button__text"></span>
+						</span>
+						<input type="submit" class="b-button__submit" value="B&#x00FA;squeda" id="tabs_searchSubmit" />
+					</span>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div><!-- /search -->
+<img src="Imga/i/blocks/search/loading.gif" class="b-tree__searching" id="searchProgress" alt="" />
+<div class="b-tabs__wrapperItemInner">
+
+<!-- .b-tree -->
+<div class="b-tree">
+	<!-- .b-tree__items -->
+	&#xA0;<br />&#xA0;
+	&#xA0;<br />&#xA0;
+	&#xA0;<br />&#xA0;
+	&#xA0;<br />&#xA0;
+	<!-- /.b-tree__items -->
+</div>
+<!-- /.b-tree -->
+
+
+
+								</div>
+							</div><!-- /wrapperItem -->
+						</div><!-- /wrapperItems -->
+					</div><!-- /b-tabs -->
+
+
+
+
+
+										</div><!-- /b-workZone__content -->
+									</td><!-- /workZone__nav -->
+
+
+
+
+									<td class="b-workZone__side m-workZone__side__article" id="workZone_article">
+										<div class="b-workZone__content" id="workZone_article__content">
+<div class="b-search m-search__workZone" id="searchZone">
+	<form action="#" class="b-search__form">
+		<table class="b-search__layout">
+			<tr>
+				<td class="b-search__side m-search__side__input">
+					<div class="b-search__gap">
+						<span class="b-interfaceIcon m-interfaceIcon__search m-interfaceIcon__search__input b-search__inputTextIcon"></span>
+						<label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder">B&#x00FA;squeda</label>
+						<input id="workZone_searchInput" type="text" value="" class="b-search__inputText" />
+					</div>
+				</td>
+				<td class="b-search__side m-search__side__submit">
+					<span class="b-button b-search__button">
+						<span class="b-button__wrapper">
+							<span class="b-button__text"></span>
+						</span>
+						<input type="submit" class="b-button__submit" value="B&#x00FA;squeda" id="workZone_searchSubmit" />
+					</span>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div><!-- /search -->
+
+
+<div class="b-article" id="article">
+	<div class="b-article__preWrapper">
+		<table class="b-article__headerLayout" id="article__header">
+			<tr>
+				<td id="headerSide__nav" class="b-article__headerSide m-article__headerSide__nav">
+					<div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
+						<ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item"><a href="___reporteria_de_tickets___.html" class="b-breadCrumbs__link">&#x000D;&#x000A;&lt;Reporteria de Tickets&gt;&#x000D;&#x000A;</a></li>
+
+<li class="b-breadCrumbs__item"><a href="ventana_reporteria_de_tickets.html" class="b-breadCrumbs__link">Ventana Reporter&#x00ED;a de Tickets</a></li>
+
+<li class="b-breadCrumbs__item"><a href="tabla_de_busqueda.html" class="b-breadCrumbs__link">Tabla de Búsqueda </a></li>
+
+<li class="b-breadCrumbs__item">Ventana de B&#x00FA;squeda Avanzada</li>
+</ul>					</div>
+				</td>
+				<td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
+					<div class="b-controlButtons">
+							&#xa0;	<div class="b-controlButtons__item"><a href="tabla_de_busqueda.html" class="b-controlButtons__link">&#8592;&#xa0;Anterior</a></div>
+							&#xa0;	<div class="b-controlButtons__item"><a href="ventana_reporteria_de_tickets_avanzada.html" class="b-controlButtons__link">Siguiente&#xa0;&#8594;</a></div>
+							&#xa0;					</div>
+				</td>
+			</tr>
+		</table>
+		<div class="b-article__wrapper">
+			<div class="b-article__innerWrapper" id="description_on_page_placeholder">
+			<a id="top" class="anchor"></a>
+			</div><!-- /innerWrapper -->
+		</div>
+		<script type="text/javascript">
+		//<![CDATA[
+			if (1 == 0 || is_touch_device())
+			{
+				$(".b-article__wrapper").append(
+					$("<table></table>")
+					.addClass("b-article__footerLayout")
+					.prop("id", "article__footer")
+					.append(
+						$("<tr></tr>").append(
+							$("<td></td>")
+							.addClass("b-article__headerSide m-article__headerSide__nav")
+						)
+						.append(
+							$("<td></td>")
+							.addClass("b-article__headerSide m-article__headerSide__buttons")
+							.append(
+								$("<div></div>").addClass("b-controlButtons")
+								.html("		&#xa0;	<div class=\"b-controlButtons__item\"><a href=\"tabla_de_busqueda.html\" class=\"b-controlButtons__link\">&#8592;&#xa0;Anterior</a></div>\r\n		&#xa0;	<div class=\"b-controlButtons__item\"><a href=\"ventana_reporteria_de_tickets_avanzada.html\" class=\"b-controlButtons__link\">Siguiente&#xa0;&#8594;</a></div>\r\n		&#xa0;")
+							)
+						)
+					)
+				);
+			}
+		//]]>
+		</script>
+	</div>
+</div>
+
+
+
+										</div>
+									</td><!-- /workZone__article -->
+								</tr>
+							</table>
+						</div><!-- /workZone -->
+
+					</td><!-- /pageContentMiddle -->
+					<td class="b-pageContent__side m-pageContent__side__right" id="pageContentRight"></td>
+						</tr>
+					</table> <!-- /internal_wrapper -->
+					</td>
+				</tr>
+				<tr class="b-pageContent__row m-pageContent__row__footer" id="pageContentFooter">
+					<td class="b-pageContent__side m-pageContent__side__footer">
+						<script type="text/javascript">
+						//<![CDATA[
+						if (1 == 1 && !is_touch_device())
+							hideContentFooter();
+						//]]>
+						</script>
+						<div class="p" style="text-align: left; direction: ltr; margin-left: 45%; text-indent: 0px;"><span style="font-size: 8pt;"><strong>Departamento de Infraestructura y Seguridad Informatica</strong></span></div>
+					</td>
+				</tr>
+			</table>
+		</div><!-- /pageContent -->
+
+	<script type="text/javascript">initialSizing();</script>
+
+</div><!-- /pageLayout -->
+<div id="hiddenContent" class="hiddenContent">
+	<noscript>
+	<div>To properly display this page you need a browser with JavaScript support.</div>
+	</noscript>
+				<div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Ventana de Búsqueda Avanzada</strong></h1></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">
+<map name="controlmapc4b01c3d_76f0_4931_929c_3a0801637510" id="controlmapc4b01c3d_76f0_4931_929c_3a0801637510">
+<area shape="rect" alt="" href="#id_1" coords="413,37,441,65"  />
+<area shape="rect" alt="" href="#id_2" coords="544,33,572,61"  />
+<area shape="rect" alt="" href="#id_3" coords="199,107,227,135"  />
+<area shape="rect" alt="" href="#id_4" coords="248,157,276,185"  />
+<area shape="rect" alt="" href="#id_5" coords="244,201,272,229"  />
+<area shape="rect" alt="" href="#id_6" coords="244,251,272,279"  />
+<area shape="rect" alt="" href="#id_7" coords="953,136,981,164"  />
+<area shape="rect" alt="" href="#id_8" coords="965,190,993,218"  />
+<area shape="rect" alt="" href="#id_9" coords="982,238,1010,266"  />
+<area shape="rect" alt="" href="#id_10" coords="987,283,1015,311"  />
+<area shape="rect" alt="" href="#id_11" coords="923,322,951,350"  />
+<area shape="rect" alt="" href="#id_12" coords="316,378,344,406"  />
+<area shape="rect" alt="" href="#id_13" coords="323,424,351,452"  />
+<area shape="rect" alt="" href="#id_14" coords="317,466,345,494"  />
+</map><img usemap="#controlmapc4b01c3d_76f0_4931_929c_3a0801637510"  alt="Ventana de B&#x00FA;squeda Avanzada" style="border: solid 0px;  " width="1130" height="529" class="de_wndimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_screen.png"/></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_1"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="1" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_1_8.png"/></a><div class="ic"><h2><strong>&lt;Área del Cliente&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="1. &lt;&#x00C1;rea del Cliente&gt;" style="border: solid 0px;  " width="550" height="416" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_1.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Área del Cliente:</strong>Es un área más específica donde el personal podrá realizar una búsqueda más detallada sobre la información que desea que se muestre en pantalla para efectos de un mejor análisis.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_2"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="2" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_2_8.png"/></a><div class="ic"><h2><strong>&lt;Titulo de la Página&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="2. &lt;Titulo de la P&#x00E1;gina&gt;" style="border: solid 0px;  " width="276" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_2.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>&#160;Título de la Página: </strong> Es la etiqueta que se muestra al realizar la búsqueda avanzada en&#160; la pantalla.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_3"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="3" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_3_7.png"/></a><div class="ic"><h2><strong>&lt;Lista Desplegable de Estado&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="3. &lt;Lista Desplegable de Estado&gt;" style="border: solid 0px;  " width="275" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Lista Desplegable de Estado:</strong>Muestra una lista desplegable sobre los diferentes estados que se puedan encontrar los ticket, Ya sean Cerrados o Abiertos.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_4"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="4" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_4_7.png"/></a><div class="ic"><h2><strong>&lt;Lista Desplegable de Dept. Destino&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="4. &lt;Lista Desplegable de Dept. Destino&gt;" style="border: solid 0px;  " width="284" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_4.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><h2><span class="de_51752156DC"><strong>&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; Lista Desplegable de Dept. Destino:</strong>Muestra una lista de todos los&#160; departamentos a los cuales se les pueden asignar los ticket creados.</span></h2></div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_5"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="5" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_5_5.png"/></a><div class="ic"><h2><strong>&lt;Lista Desplegable de Dept. Origen&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="5. &lt;Lista Desplegable de Dept. Origen&gt;" style="border: solid 0px;  " width="305" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_5.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Lista Desplegable de Dept. Origen: </strong>Muestra una lista con los nombres de todos los departamentos de origen que pueden emitir tickets. O (Crear tickets). </div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_6"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="6" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_6_3.png"/></a><div class="ic"><h2><strong>&lt;Tema de Ayuda&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="6. &lt;Tema de Ayuda&gt;" style="border: solid 0px;  " width="302" height="22" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_6.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Tema de Ayuda:</strong>Muestra una lista de todos los posibles problemas que pueden ocurrir dentro de la organización.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_7"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="7" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_7_3.png"/></a><div class="ic"><h2><strong>&lt;Medio de Solicitud&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="7. &lt;Medio de Solicitud&gt;" style="border: solid 0px;  " width="243" height="31" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_7.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Medio de Solicitud:</strong>Muestra una lista de todos los medios de solicitud por donde se puedan asignar los tickets creados.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_8"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="8" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_8_3.png"/></a><div class="ic"><h2><strong>&lt;Nivel de Prioridad&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="8. &lt;Nivel de Prioridad&gt;" style="border: solid 0px;  " width="244" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_8.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Nivel de Prioridad:</strong>Muestra una lista de todos los niveles de prioridad que puedan tener los tickets</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_9"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="9" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_9_2.png"/></a><div class="ic"><h2><strong>&lt;Asignado a:&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="9. &lt;Asignado a:&gt;" style="border: solid 0px;  " width="244" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_9.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Asignado a: </strong>Muestra una lista de todo el personal hacia los cuales se les pueden asignar los tickets creados</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_10"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="10" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_10_2.png"/></a><div class="ic"><h2><strong>&lt;Cerrado por:&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="10. &lt;Cerrado por:&gt;" style="border: solid 0px;  " width="237" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_10.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Cerrdo por:</strong>Muestra una lista de todo el personal los cuales tienen permiso de cerrar los tickets asignado a ellos mismos.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_11"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="11" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_11_2.png"/></a><div class="ic"><h2><strong>&lt;Intervalo de Fecha&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="11. &lt;Intervalo de Fecha&gt;" style="border: solid 0px;  " width="507" height="57" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_11.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Intervalo de Fecha:</strong>Muestra la opción de buscar los tickets por intervalos de fecha para un mejor análisis de la información de los ticket.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_12"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="12" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_12.png"/></a><div class="ic"><h2><strong>&lt;Botón de Restablecer&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="12. &lt;Bot&#x00F3;n de Restablecer&gt;" style="border: solid 0px;  " width="71" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_12.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Retablecer:</strong>Al hacer click sobre el botón restaurara a la forma predeterminada todas la listas desplegables que muestran en pantalla.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_13"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="13" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_13.png"/></a><div class="ic"><h2><strong>&lt;Botón de Cancelar&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="13. &lt;Bot&#x00F3;n de Cancelar&gt;" style="border: solid 0px;  " width="57" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_13.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Cancelar: </strong>Al hacer click sobre el botón cancelar automáticamente se cerrara la ventana de búsqueda avanzada y es enviado a la ventana de ticket general.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_14"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="14" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_14.png"/></a><div class="ic"><h2><strong>&lt;Botón de Buscar&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="14. &lt;Bot&#x00F3;n de Buscar&gt;" style="border: solid 0px;  " width="48" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_de_busqueda_avanzada_control_14.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Buscar:</strong>Al hacer click sobre el botón buscar este los enviara sobre otra plataforma con la información seleccionada en las listas desplegables anteriormente.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</div>												
+											<h6 class="b-article__generatorCopyright">
+					
+				</h6>
+				<br /><b></b></div>
+</body>
+</html>

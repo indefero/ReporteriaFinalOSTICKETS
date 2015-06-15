@@ -1,0 +1,70 @@
+1
+ Página p... ¡Se requiere una licencia Advanced!
+ index.html
+2
+ 
+ <Reporteria... ¡Se requiere una licencia Advanced!
+ ___reporteria_de_tickets___.html
+3
+ Ventana Report... ¡Se requiere una licencia Advanced!
+ ventana_reporteria_de_tickets.html
+4
+ Ventana de... ¡Se requiere una licencia Advanced!
+ ventana_de_impresion.html
+5
+ Buscar I... ¡Se requiere una licencia Advanced!
+ buscar_impresora.html
+6
+ Mensaje ... ¡Se requiere una licencia Advanced!
+ mensaje_de_alerta.html
+7
+ Pie de... ¡Se requiere una licencia Advanced!
+ pie_de_pagina.html
+8
+ Tabla de ... ¡Se requiere una licencia Advanced!
+ tabla_de_utilidades.html
+9
+ Tabla de Me... ¡Se requiere una licencia Advanced!
+ tabla_de_menu_principal.html
+10
+ Tabla de... ¡Se requiere una licencia Advanced!
+ tabla_de_busqueda.html
+11
+ Ventana de Bús... ¡Se requiere una licencia Advanced!
+ ventana_de_busqueda_avanzada.html
+12
+ Ventana Reportería ... ¡Se requiere una licencia Advanced!
+ ventana_reporteria_de_tickets_avanzada.html
+13
+ Ventana Reportería... ¡Se requiere una licencia Advanced!
+ ventana_reporteria_de_tickets_abierto.html
+14
+ Ventana Reportería ... ¡Se requiere una licencia Advanced!
+ ventana_reporteria_de_tickets_cerrado_.html
+15
+ Ventana Reportería d... ¡Se requiere una licencia Advanced!
+ ventana_reporteria_de_tickets_asignados_.html
+16
+ Ventana Estadìsticas po... ¡Se requiere una licencia Advanced!
+ ventana_estadisticas_por_departamento_destino_.html
+17
+ Ventana Detalles de Estadisticas De... ¡Se requiere una licencia Advanced!
+ ventana_detalles_de_estadisticas_departamento_destino_segun_los_tickets.html
+18
+ Ventana Estadìstica... ¡Se requiere una licencia Advanced!
+ ventana_estadisticas_por_tema_de_ayuda.html
+19
+ Ventana Detalles de los Tema... ¡Se requiere una licencia Advanced!
+ ventana_detalles_de_los_temas_de_ayuda_segun_los_tickets.html
+20
+ Ventana Estadìst... ¡Se requiere una licencia Advanced!
+ ventana_estadisticas_por_empleado.html
+21
+ Ventana Detalles de los ... ¡Se requiere una licencia Advanced!
+ ventana_detalles_de_los_tickets_de_los_empleados.html
+22
+ Ventana Estadìsticas po... ¡Se requiere una licencia Advanced!
+ ventana_estadisticas_por_departamento_de_origen.html
+23
+ Ventana Detalles de los departam... ¡Se requiere una licencia Advanced!
+ ventana_detalles_de_los_departamento_de_origen_segun_los_tickets.html

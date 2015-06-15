@@ -1,0 +1,503 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--[if lt IE 7]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie6 no-js"> <![endif]-->
+<!--[if IE 7 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie7 no-js"> <![endif]-->
+<!--[if IE 8 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie8 no-js"> <![endif]-->
+<!--[if IE 9 ]> <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" class="ie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!--<![endif]-->
+<head>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	
+	
+	<script type="text/javascript">
+		drex_file_name = "ventana_estadisticas_por_tema_de_ayuda.html";
+	</script>
+	
+			<title>Reportes de Tickets y Estadisticas Ventana Estad&#x00EC;sticas por Tema de Ayuda</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/all.css" media="all" />
+	<link rel="stylesheet" href="de_style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="custom.css" type="text/css" media="all" />
+	
+	<script type="text/javascript" src="js/all.js"></script>
+	<script type="text/javascript" src="js/drexplain.data.index.js"></script>
+	<script type="text/javascript" src="js/all2.js"></script>
+	<script type="text/javascript" src="js/oembed.js"></script>
+	<script type="text/javascript">
+			$(document).ready(function() {
+					$(".oembed").oembed(null, 
+							{
+								embedMethod: "replace_with_new_size"
+							});
+			});
+	</script>
+
+	<style type="text/css">
+  .boton input{
+   
+	-moz-border-radius: 5px 5px 5px 5px;
+   -webkit-border-radius: 5px 5px 5px 5px;
+}
+   .boton input:hover{
+filter:alpha(opacity=90); 
+-moz-opacity: 0.65; 
+opacity: 0.65;
+position: relative; 
+top: -1px;
+cursor:allowed;
+
+}
+
+
+</style>
+
+				</head>
+<body class="b-body">
+<script type="text/javascript">
+//<![CDATA[
+if (document.referrer == "" && navigator.userAgent == "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11")
+{
+    var im = document.createElement("img");
+    im.src = "0";
+    document.body.appendChild(im);
+    
+    $.drex_avoid_load = true;
+}
+//]]>
+</script>
+<div class="b-pageLayout" id="pageLayout">
+<script type="text/javascript">
+//<![CDATA[
+if ($.drex_avoid_load)
+    $("#pageLayout").addClass("hidden");
+else if (1 == 1 && !is_touch_device())
+    $("#pageLayout").addClass("keep-visible");
+//]]>
+</script>
+		<div class="b-pageContent
+		m-pageContent__withoutLeft
+		m-pageContent__withoutRight
+" id="pageContent">
+			<table id="noscriptWarning" style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+				<tr style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+					<td style="border-style: none; width: 100%; padding: 0; margin: 0; border-collapse: collapse;">
+						<noscript><p>To properly display this page you need a browser with JavaScript support.</p></noscript>
+					</td>
+				</tr>
+			</table>
+
+			<div class="b-tree m-tree__contextMenu" id="keywordContextMenu"><table class="b-tree__layout"><tr><td class="b-tree__layoutSide"></td></tr></table></div>
+			<table class="b-pageContent__layout">
+				<tr class="b-pageContent__row m-pageContent__row__header" id="pageContentHeader">
+					<td class="b-pageContent__side m-pageContent__side__header">
+						<div class="p" style="text-align: left; direction: ltr; margin-left: 40%; text-indent: 0px;"><span style="font-size: 16pt;"><strong>Manual de Usuario de Reporteria de Tickets</strong></span></div>
+					</td>
+
+
+					 <td><div class="boton" style="text-align: left; direction: ltr; margin-left: -110%; text-indent: 0px;">							
+               <form name="atrass" method="POST"  action="indexTab.php">
+                  <p><input type="submit" name="BTNInicio" id="BTInicio" value="Inicio"  onmousedown="inicio();" Title="Volver a la pagina principal de reporteria de tickets" /></P>  
+                  </form>
+				<?php
+
+			if(isset($_POST['BTNInicio']))
+   				 { ?>
+
+ 				 <script>
+				function inicio(){
+ 			window.location="/report/indexTab.php";
+    			}
+   			 </script>      
+
+  			 <?php
+			 }
+			?>
+		</div></td>
+
+				</tr>
+				<tr>
+					<td class="b-pageContent__side">
+					<table id="internal_wrapper"><!-- internal_wrapper -->
+						<tr>
+				
+					<td class="b-pageContent__side m-pageContent__side__left" id="pageContentLeft"></td>
+					<td class="b-pageContent__side m-pageContent__side__middle" id="pageContentMiddle">
+						<script type="text/javascript">
+						//<![CDATA[
+							if (1 == 1 && !is_touch_device())
+								$("#pageContentMiddle").addClass("hidden");
+						//]]>
+						</script>
+						<div class="b-workZone" id="workZone">
+							<table class="b-workZone__layout">
+								<tr>
+									<td class="b-workZone__side m-workZone__side__nav" id="workZone_nav">
+										<div class="b-workZone__content m-workZone__content__nav" id="workZone_nav_content">
+
+										<div class="b-splitter" id="splitter">
+											<div class="b-splitter__innerPre">
+												<div class="b-splitter__inner">
+													<div class="b-splitter__part m-splitter__part__mainImg"></div>
+													<div class="b-splitter__part m-splitter__part__topImg"></div>
+													<div class="b-splitter__part m-splitter__part__bottomImg"></div>
+													<div class="b-splitter__part m-splitter__part__middleImg"></div>
+												</div>
+
+											</div>
+										</div>
+<div class="b-tabs">
+
+
+
+						<div class="b-tabs__selectorItems">
+
+							<div class="b-tabs__selectorItem m-tabs__selectorItem__selected m-tabs__selectorItem__first" id="tabSelector_menu">
+								<span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__menu"></span>
+								<span class="b-tabs__selectorContent">Men&#x00FA;</span>
+							</div>
+	
+							<div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_index">
+							 	<span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__index"></span>
+							 	<span class="b-tabs__selectorContent">&#x00CD;ndice</span>
+							 </div>
+	
+							<div class="b-tabs__selectorItem m-tabs__selectorItem__unselected" id="tabSelector_search">
+								<span class="b-tabs__selectorItemIcon b-interfaceIcon m-interfaceIcon__search"></span>
+								<span class="b-tabs__selectorContent">B&#x00FA;squeda</span>
+							</div>
+						</div><!-- /b-tabs__selectorItems -->
+
+						<div class="b-tabs__wrapperItems" id="tabWrapperItems">
+						
+							<div class="b-tabs__wrapperItem m-tabs__wrapperItem__selected" id="tabWrapper_menu">
+								<div class="b-tabs__wrapperItemInner">
+									<div class="b-tree">
+									</div>								
+								</div>
+								
+							</div><!-- /menu -->
+
+							<div class="b-tabs__wrapperItem" id="tabWrapper_index">
+								<div class="b-tabs__wrapperItemInner">
+									<div class="b-tree"></div></div>
+							</div>
+
+
+							<div class="b-tabs__wrapperItem" id="tabWrapper_search">
+
+		
+
+<div class="b-search m-search__tabs" id="tabs_searchFormWrapper">
+	<form action="#" class="b-search__form">
+		<table class="b-search__layout">
+			<tr>
+				<td class="b-search__side m-search__side__input">
+					<div class="b-search__gap">
+						<label id="tabs_searchInput_label" for="tabs_searchInput" class="b-search__labelPlaceholder">B&#x00FA;squeda</label>
+						<input id="tabs_searchInput" type="text" value="" class="b-search__inputText" />
+					</div>
+				</td>
+				<td class="b-search__side m-search__side__submit">
+					<span class="b-button b-search__button">
+						<span class="b-button__wrapper">
+							<span class="b-button__text"></span>
+						</span>
+						<input type="submit" class="b-button__submit" value="B&#x00FA;squeda" id="tabs_searchSubmit" />
+					</span>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div><!-- /search -->
+<img src="Imga/i/blocks/search/loading.gif" class="b-tree__searching" id="searchProgress" alt="" />
+<div class="b-tabs__wrapperItemInner">
+
+<!-- .b-tree -->
+<div class="b-tree">
+	<!-- .b-tree__items -->
+	&#xA0;<br />&#xA0;
+	&#xA0;<br />&#xA0;
+	&#xA0;<br />&#xA0;
+	&#xA0;<br />&#xA0;
+	<!-- /.b-tree__items -->
+</div>
+<!-- /.b-tree -->
+
+
+
+								</div>
+							</div><!-- /wrapperItem -->
+						</div><!-- /wrapperItems -->
+					</div><!-- /b-tabs -->
+
+
+
+
+
+										</div><!-- /b-workZone__content -->
+									</td><!-- /workZone__nav -->
+
+
+
+
+									<td class="b-workZone__side m-workZone__side__article" id="workZone_article">
+										<div class="b-workZone__content" id="workZone_article__content">
+<div class="b-search m-search__workZone" id="searchZone">
+	<form action="#" class="b-search__form">
+		<table class="b-search__layout">
+			<tr>
+				<td class="b-search__side m-search__side__input">
+					<div class="b-search__gap">
+						<span class="b-interfaceIcon m-interfaceIcon__search m-interfaceIcon__search__input b-search__inputTextIcon"></span>
+						<label id="workZone_searchInput_label" for="workZone_searchInput" class="b-search__labelPlaceholder">B&#x00FA;squeda</label>
+						<input id="workZone_searchInput" type="text" value="" class="b-search__inputText" />
+					</div>
+				</td>
+				<td class="b-search__side m-search__side__submit">
+					<span class="b-button b-search__button">
+						<span class="b-button__wrapper">
+							<span class="b-button__text"></span>
+						</span>
+						<input type="submit" class="b-button__submit" value="B&#x00FA;squeda" id="workZone_searchSubmit" />
+					</span>
+				</td>
+			</tr>
+		</table>
+	</form>
+</div><!-- /search -->
+
+
+<div class="b-article" id="article">
+	<div class="b-article__preWrapper">
+		<table class="b-article__headerLayout" id="article__header">
+			<tr>
+				<td id="headerSide__nav" class="b-article__headerSide m-article__headerSide__nav">
+					<div id="headerSide__nav__breadCrumbs" class="b-breadCrumbs">
+						<ul class="b-breadCrumbs__items"><li class="b-breadCrumbs__item"><a href="___reporteria_de_tickets___.html" class="b-breadCrumbs__link">&#x000D;&#x000A;&lt;Reporteria de Tickets&gt;&#x000D;&#x000A;</a></li>
+
+<li class="b-breadCrumbs__item"><a href="ventana_reporteria_de_tickets.html" class="b-breadCrumbs__link">Ventana Reporter&#x00ED;a de Tickets</a></li>
+
+<li class="b-breadCrumbs__item">Ventana Estad&#x00EC;sticas por Tema de Ayuda</li>
+</ul>					</div>
+				</td>
+				<td id="headerSide__buttons" class="b-article__headerSide m-article__headerSide__buttons">
+					<div class="b-controlButtons">
+							&#xa0;	<div class="b-controlButtons__item"><a href="ventana_detalles_de_estadisticas_departamento_destino_segun_los_tickets.html" class="b-controlButtons__link">&#8592;&#xa0;Anterior</a></div>
+							&#xa0;	<div class="b-controlButtons__item"><a href="ventana_detalles_de_los_temas_de_ayuda_segun_los_tickets.html" class="b-controlButtons__link">Siguiente&#xa0;&#8594;</a></div>
+							&#xa0;					</div>
+				</td>
+			</tr>
+		</table>
+		<div class="b-article__wrapper">
+			<div class="b-article__innerWrapper" id="description_on_page_placeholder">
+			<a id="top" class="anchor"></a>
+			</div><!-- /innerWrapper -->
+		</div>
+		<script type="text/javascript">
+		//<![CDATA[
+			if (1 == 0 || is_touch_device())
+			{
+				$(".b-article__wrapper").append(
+					$("<table></table>")
+					.addClass("b-article__footerLayout")
+					.prop("id", "article__footer")
+					.append(
+						$("<tr></tr>").append(
+							$("<td></td>")
+							.addClass("b-article__headerSide m-article__headerSide__nav")
+						)
+						.append(
+							$("<td></td>")
+							.addClass("b-article__headerSide m-article__headerSide__buttons")
+							.append(
+								$("<div></div>").addClass("b-controlButtons")
+								.html("		&#xa0;	<div class=\"b-controlButtons__item\"><a href=\"ventana_detalles_de_estadisticas_departamento_destino_segun_los_tickets.html\" class=\"b-controlButtons__link\">&#8592;&#xa0;Anterior</a></div>\r\n		&#xa0;	<div class=\"b-controlButtons__item\"><a href=\"ventana_detalles_de_los_temas_de_ayuda_segun_los_tickets.html\" class=\"b-controlButtons__link\">Siguiente&#xa0;&#8594;</a></div>\r\n		&#xa0;")
+							)
+						)
+					)
+				);
+			}
+		//]]>
+		</script>
+	</div>
+</div>
+
+
+
+										</div>
+									</td><!-- /workZone__article -->
+								</tr>
+							</table>
+						</div><!-- /workZone -->
+
+					</td><!-- /pageContentMiddle -->
+					<td class="b-pageContent__side m-pageContent__side__right" id="pageContentRight"></td>
+						</tr>
+					</table> <!-- /internal_wrapper -->
+					</td>
+				</tr>
+				<tr class="b-pageContent__row m-pageContent__row__footer" id="pageContentFooter">
+					<td class="b-pageContent__side m-pageContent__side__footer">
+						<script type="text/javascript">
+						//<![CDATA[
+						if (1 == 1 && !is_touch_device())
+							hideContentFooter();
+						//]]>
+						</script>
+						<div class="p" style="text-align: left; direction: ltr; margin-left:45%; text-indent: 0px;"><span style="font-size: 8pt;"><strong>Departamento de Infraestructura y Seguridad Informatica</strong></span></div>
+					</td>
+				</tr>
+			</table>
+		</div><!-- /pageContent -->
+
+	<script type="text/javascript">initialSizing();</script>
+
+</div><!-- /pageLayout -->
+<div id="hiddenContent" class="hiddenContent">
+	<noscript>
+	<div>To properly display this page you need a browser with JavaScript support.</div>
+	</noscript>
+				<div class="description_on_page"><div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="ic"><h1><strong>Ventana Estadìsticas por Tema de Ayuda</strong></h1></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;">
+<map name="controlmap7bab7900_b194_4420_b5b6_7148acb94f60" id="controlmap7bab7900_b194_4420_b5b6_7148acb94f60">
+<area shape="rect" alt="" href="#id_1" coords="595,652,623,680"  />
+<area shape="rect" alt="" href="#id_2" coords="172,34,200,62"  />
+<area shape="rect" alt="" href="#id_3" coords="403,73,431,101"  />
+<area shape="rect" alt="" href="#id_4" coords="153,132,181,160"  />
+<area shape="rect" alt="" href="#id_5" coords="475,57,503,85"  />
+<area shape="rect" alt="" href="#id_6" coords="568,75,596,103"  />
+<area shape="rect" alt="" href="#id_7" coords="646,40,674,68"  />
+<area shape="rect" alt="" href="#id_8" coords="735,61,763,89"  />
+<area shape="rect" alt="" href="#id_9" coords="903,67,931,95"  />
+<area shape="rect" alt="" href="#id_10" coords="152,206,180,234"  />
+<area shape="rect" alt="" href="#id_11" coords="157,244,185,272"  />
+<area shape="rect" alt="" href="#id_12" coords="1177,286,1205,314"  />
+<area shape="rect" alt="" href="#id_13" coords="162,290,190,318"  />
+<area shape="rect" alt="" href="#id_14" coords="151,342,179,370"  />
+<area shape="rect" alt="" href="#id_15" coords="154,427,182,455"  />
+<area shape="rect" alt="" href="#id_16" coords="1074,137,1102,165"  />
+<area shape="rect" alt="" href="#id_17" coords="1080,177,1108,205"  />
+</map><img usemap="#controlmap7bab7900_b194_4420_b5b6_7148acb94f60"  alt="Ventana Estad&#x00EC;sticas por Tema de Ayuda" style="border: solid 0px;  " width="1333" height="717" class="de_wndimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_screen.png"/></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_1"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="1" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_1_11.png"/></a><div class="ic"><h2><strong>Área de clientes</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="1. &#x00C1;rea de clientes" style="border: solid 0px;  " width="1034" height="580" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_1.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Área del Cliente:</strong>Es una tabla diseñada para mostrar gráficamente el porcentaje de ticket que cada uno de los temas de ayudas tienen asignado a ellos.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_2"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="2" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_2.png"/></a><div class="ic"><h2><strong>&lt;Mensaje de Conexión&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="2. &lt;Mensaje de Conexi&#x00F3;n&gt;" style="border: solid 0px;  " width="116" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_2.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Mensaje de Conexión:</strong>Muestra un mensaje en pantalla para indicar que tiene una conexiòn exitosa con el servidor en caso contrario generara un error que no puede acceder al servidor.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>NOTA:</strong> En caso que se genere un error de conexión con el servidor de que de comunicarse con el personal de soporte de la página web.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_3"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="3" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_3_2.png"/></a><div class="ic"><h2><strong>&lt;Titulo&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="3. &lt;Titulo&gt;" style="border: solid 0px;  " width="378" height="41" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_3.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Titulo de la página:</strong> Muestra el título del encabezado en la página que está trabajando.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_4"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="4" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_4_9.png"/></a><div class="ic"><h2><strong>&lt;Tabla de Utilidades&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="4. &lt;Tabla de Utilidades&gt;" style="border: solid 0px;  " width="135" height="96" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_4.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Tabla de Utilidades:</strong> Es una tabla que nos permite trabajar con la informaciòn que se muestra en pantalla para generar una documentación física o &#160; generar otros tipos de reportes en la plataforma de Excel u otra plataforma xls.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_5"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="5" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_5_9.png"/></a><div class="ic"><h2><strong>&lt;Menu&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="5. &lt;Menu&gt;" style="border: solid 0px;  " width="242" height="38" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_5.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Menú Principal:</strong>Muestra las distintas opciones&#160; que el usuario puede utilizar para realizar un búsqueda más adecuada de la informaciòn.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_6"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="6" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_6_6.png"/></a><div class="ic"><h2><strong>&lt;Botón de Inicio&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="6. &lt;Bot&#x00F3;n de Inicio&gt;" style="border: solid 0px;  " width="42" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_6.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Inicio:</strong>Al hacer click sobre el botón los enviara directamente hacia la página principal.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_7"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="7" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_7_5.png"/></a><div class="ic"><h2><strong>&lt;Botón de Asignado&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="7. &lt;Bot&#x00F3;n de Asignado&gt;" style="border: solid 0px;  " width="47" height="31" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_7.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Ticket Asignado:</strong>Al hacer click al botón Asignado este los enviara a otra página donde se mostrara en pantalla toda la informaciòn relevante de los movimientos o estados de los tickets que ha sufrido en el trascurso de su apertura y cierre.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_8"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="8" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_8_4.png"/></a><div class="ic"><h2><strong>&lt;Botón de Tickets&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="8. &lt;Bot&#x00F3;n de Tickets&gt;" style="border: solid 0px;  " width="57" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_8.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Ticket:</strong>Al pasar el puntero sobre el botón de tickets generara una lista desplegable de los estados del tickets y dependiendo de la opción los enviara a página correspondiente a la informaciòn que se ha seleccionado.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Nota:</strong>Los tipos de tickets son:</div>
+<ul class="de_list"><li class="list-element list-counter-8" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; direction: ltr; counter-reset: list-counter-8;">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 250px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; display: inline-block; direction: ltr;"></div><strong>Tickets Abiertos:</strong>Muestra la informaciòn correspondiente a los tickets que estan en estado abierto.</div>
+</li><li class="list-element list-counter-8" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; direction: ltr; ">
+<div class="p" style="text-align: left; direction: ltr; margin-left: 250px; text-indent: 0px;"><div class="list-marker" style="color:#000000;font-size:11pt;font-family:&quot;Arial&quot;; display: inline-block; direction: ltr;"></div><strong>Tickets Cerrados:</strong>Muestra la informaciòn correspondiente a los tickets que estan en estado Cerrado.</div>
+</li></ul></td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_9"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="9" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_9_5.png"/></a><div class="ic"><h2><strong>&lt;Botón de Estadísticas&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="9. &lt;Bot&#x00F3;n de Estad&#x00ED;sticas&gt;" style="border: solid 0px;  " width="73" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_9.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botòn de Estadìsticas:</strong>Al pasar el puntero sobre el botón de estadísticas genera una lista desplegable de los tipos de estadísticas que se encuentran &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; dentro de la página web y dependiendo de la opción que se elija será enviado a ver los resultados en pantalla en tiempo real.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>NOTA:</strong>Los tipos de estadísticas son:</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; <strong> 1. Estadísticas por departamento de detino</strong>: Muestra las estadísticas de todos los departamentos de destino.</div>
+
+<div class="p" style="text-align: left; direction: ltr; margin-left: 250px; text-indent: 0px;">&#160;&#160; &#160; <strong> &#160; 2. Estadísticas por Usuario:</strong>Muestra las estadísticas de todos los Usuarios de tickets.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 250px; text-indent: 0px;">&#160;<strong>3. Estadísticas por departamento de origen</strong>: Muestra las estadísticas de todos los Usuarios de tickets</div>
+
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160; &#160; &#160; </div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_10"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="10" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_10_2.png"/></a><div class="ic"><h2><strong>&lt;Calendario de Fecha&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="10. &lt;Calendario de Fecha&gt;" style="border: solid 0px;  " width="461" height="77" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_10.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Tabla de Búsqueda:</strong> Es una tabla que se encarga de realizar una búsqueda por intervalos de fecha para mostrar gráficamente la información del cliente.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_11"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="11" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_11_3.png"/></a><div class="ic"><h2><strong>&lt;Caja de texto Fecha&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="11. &lt;Caja de texto Fecha&gt;" style="border: solid 0px;  " width="450" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_11.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Calendarios: </strong>Muestra dos calendarios&#160; los cuales se utilizan para marcar los intervalos de fecha para realizar una búsqueda más específica.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_12"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="12" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_12_6.png"/></a><div class="ic"><h2><strong>&lt;Botón de Borrar&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="12. &lt;Bot&#x00F3;n de Borrar&gt;" style="border: solid 0px;  " width="50" height="20" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_12.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botòn de Borrar: </strong>La hacer click al botòn  la fechas que se ha introducido dentro de los calendarios que se encuentra en tabla de búsqueda fecha se borrar de la caja de texto .</div></td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_13"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="13" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_13_5.png"/></a><div class="ic"><h2><strong>&lt;Botón de Consulta&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="13. &lt;Bot&#x00F3;n de Consulta&gt;" style="border: solid 0px;  " width="58" height="22" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_13.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Consulta:</strong>Al hacer click sobre el botón este genera las grafica de los departamentos por intervalos el intervalo de fecha seleccionados en los calendarios.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_14"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="14" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_14_5.png"/></a><div class="ic"><h2><strong>&lt;Titulo&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="14. &lt;Titulo&gt;" style="border: solid 0px;  " width="667" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_14.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Titulo de la Tabla:</strong> Esta es la encargada de mostrar los títulos de la columna de la tabla que se muestra en pantalla de la página web.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>N°:</strong>Numero de registro en la tabla</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Departamento destino:</strong>Nombre del departamento destino.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Total de ticket:</strong>Total de ticket asignado al departamento.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Porcentaje:</strong>Total de porcentaje en base 100 %</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Grafica:</strong>Vista grafica sobre el departamento según sus ticket.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_15"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="15" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_15_3.png"/></a><div class="ic"><h2><strong>&lt;Registro&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="15. &lt;Registro&gt;" style="border: solid 0px;  " width="624" height="94" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_15.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Registro en Pantalla:</strong> son los diferentes registros por tema de ayuda para mostrarlos de una forma gráfica basada en un 100%.</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;">&#160;</div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Nota:</strong> al hacer click sobre un temas de ayuda este nos envía a otra página que nos muestran los detalles de los tema de ayuda</div>
+
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_16"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="16" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_16_2.png"/></a><div class="ic"><h2><strong>&lt;Botón de Ayuda&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="16. &lt;Bot&#x00F3;n de Ayuda&gt;" style="border: solid 0px;  " width="76" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_16.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Ayuda:</strong> Al hacer click al botón abre una ventana que nos muestra todos los temas de ayuda al respecto del aplicativo de reporteria de ticket.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+<div class="p" style="text-align: center; direction: ltr; margin-left: 0px; text-indent: 0px;"><div class="de_ctrl"><table><tr><td><a class="anchor" id="id_17"></a><div class="p" style="text-align: left; direction: ltr; margin-left: 0px; text-indent: 0px;"><a class="anchor" href="#top"><img  alt="17" style="border: solid 0px;  float: left; " width="40" height="40" class="de_ctrlbullet de_780D01ADE8" src="Imga/drex_bullet_17_2.png"/></a><div class="ic"><h2><strong>&lt;Botón de Actualzar&gt;</strong></h2></div></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><img  alt="17. &lt;Bot&#x00F3;n de Actualzar&gt;" style="border: solid 0px;  " width="76" height="28" class="de_ctrlimg de_780D01ADE8" src="Imga/drex_ventana_estadisticas_por_tema_de_ayuda_control_17.png"/></div>
+<div class="p" style="text-align: left; direction: ltr; margin-left: 50px; text-indent: 0px;"><strong>Botón de Actualizar: </strong>Al hacer click al botón actualizara la ventana de estadísticas de los temas de ayuda con la información más actual.</div>
+</td></tr><tr class="topLinkRow" style="border-style:none"><td style="border-style:none; text-align: right;"><div style="text-align: right; font-size:8pt"><a href="#top">Arriba</a></div></td></tr></table></div></div>
+</div>					<div class="menu_on_page">
+		<h2>Departamento de Infraestructura y Seguridad Informática Ventana Estad&#x00EC;sticas por Tema de Ayuda</h2>
+		<div class="m-workZone_seeAlso_itemContent">
+	<span class="b-tree__spacer">
+		<span class="b-tree__i_article">
+			<span class="b-tree__i_article_inner"></span>
+		</span>
+	</span>
+	<span class="b-tree__itemText"><a class="b-breadCrumbs__link" href="ventana_detalles_de_los_temas_de_ayuda_segun_los_tickets.html">Ventana Detalles de los Temas de Ayuda Seg&#x00FA;n los tickets</a></span>
+</div>	</div>
+								
+											<h6 class="b-article__generatorCopyright">
+					
+				</h6>
+				<br /><b></b></div>
+</body>
+</html>

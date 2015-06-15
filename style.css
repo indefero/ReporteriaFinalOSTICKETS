@@ -1,0 +1,616 @@
+/*Hoja de estilo en cascada para darle diseño a cada una de las pantallas que se muestran*/
+* {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color:black;
+}
+
+ body{
+   padding: 0;
+  background: #EFEFEF;
+  font-size: 13px;
+  color: #6B6B6B;
+    }
+
+    .MarcoPrincipalC{
+        position: absolute;
+        top:30px;
+        left:1.5%;
+        width: 100%;
+       max-width: 1200px;
+       min-width: 1000px;
+       min-height: 650px;
+
+            }
+
+
+.MarcoPrincipal{
+        position: absolute;
+        top:30px;
+        left:1.5%;
+        width: 100%;
+       max-width: 1200px;
+       min-width: 1000px;
+       min-height: 830px;
+
+
+
+       
+       }
+.MarcoPrincipal,.MarcoPrincipalC{
+   background: #ffffff;
+        border-radius: 26px 26px 26px 26px;
+        -moz-border-radius: 26px 26px 26px 26px;
+        -webkit-border-radius: 26px 26px 26px 26px;
+         border: 1px solid #cccccc;
+
+-webkit-box-shadow: -2px 0px 14px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 0px 14px -1px rgba(0,0,0,0.75);
+box-shadow: -2px 0px 14px -1px rgba(0,0,0,0.75);
+}
+
+
+.MarcoEncabezado{
+  position: relative;
+        top:10px;
+        left: 0.4%;
+        width: 98.6%;
+        min-width: 800px;
+        max-width: 1187px;  
+        min-height: 330px;      
+
+  border-radius: 26px 26px 0px 0px;
+-moz-border-radius: 26px 26px 0px 0px;
+-webkit-border-radius: 26px 26px 0px 0px;
+border: 0px solid #cccccc;
+
+-webkit-box-shadow: inset 1px 2px 49px 3px rgba(0,0,0,0.10);
+-moz-box-shadow: inset 1px 2px 49px 3px rgba(0,0,0,0.10);
+box-shadow: inset 1px 2px 49px 3px rgba(0,0,0,0.10);
+}
+
+/*Estilo para la vista de Bùsqueda avanzadad*/
+.MarcoPrincipalC>.principal{
+      	position: relative;
+        width:60.2%;
+        	height: 40.5em;
+        left: 20%;
+        max-width: 750px;
+        min-width: 680px;
+      bottom: -30px;
+
+        webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+    border-radius: 15px;
+
+
+background: rgba(235,232,235,1);
+background: -moz-linear-gradient(left, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,232,235,1)), color-stop(18%, rgba(227,225,227,1)), color-stop(34%, rgba(219,219,219,1)), color-stop(74%, rgba(226,226,226,1)), color-stop(100%, rgba(230,230,230,1)));
+background: -webkit-linear-gradient(left, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+background: -o-linear-gradient(left, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+background: linear-gradient(to right, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe8eb', endColorstr='#e6e6e6', GradientType=1 );
+
+ border-radius: 26px 26px 0px 0px;
+-moz-border-radius: 26px 26px 0px 0px;
+-webkit-border-radius: 26px 26px 0px 0px;
+border: 0px solid #cccccc;
+
+
+
+-webkit-box-shadow: 1px 3px 16px 7px rgba(0,0,0,0.22);
+-moz-box-shadow: 1px 3px 16px 7px rgba(0,0,0,0.22);
+box-shadow: 1px 3px 16px 7px rgba(0,0,0,0.22);
+
+    }
+
+.principal>.second{
+      	/*position: absolute;*/
+          position: relative;
+          width: 50%
+        left: 50px;
+        
+    }
+
+.opciones{
+      	position: relative;
+      	bottom: 128px;
+      	left: 0;
+      	right: 0;
+    }
+
+
+/*Estilo para la vista del piede de pagina  la paginas del aplicativo del index*/
+.footerGeneral,.footer{
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        bottom: -17px;
+        background-color: rgba(0,0,0, 0.9);
+        border-radius: 0px 0px 5px 5px;
+        margin: 0px auto 0px auto;
+        color: white;
+        text-align: center;
+        font-size: 1.3em;
+}
+
+.footerGeneral p,.footer p{
+color: white;
+}
+
+/*Estilo para las letras*/
+h1{
+    	text-align: center;
+    	border-top: auto;
+    	border-bottom: auto;
+      text-shadow: 6px 3px 1px #FFF;
+     color: black;
+}
+h2{
+	   text-align: center;
+}
+
+/*Estilo para el menu que se muestra en pantalla del aplicativo */
+
+.Menu{
+      clear: both;
+      position: absolute;
+      top:65px;
+      left:37%;
+      width: 50%;
+      margin:0em; 
+
+      }
+         
+      
+.Menu ul, .MenuAv ul,.MenuEstadi ul{
+        padding: 0em;
+        margin:0em;
+        list-style-type: none;
+        padding:0em;
+        background-color: #800000 !important;
+
+        }
+  
+.Menu li,.MenuAv li,.MenuEstadi li{
+         position: relative;
+         float:left;
+         padding: 0em;
+         margin: 0em;
+         text-align: center;
+         background-repeat: repeat-x;
+         color: #333;
+        background:#3b8bb3;  
+        }
+
+
+.Menu a, .MenuAv a, .MenuEstadi a{
+         display:inline-block;
+         padding:0.8em 0.5em;
+         min-width: 0em;
+         background-color: #800000;
+         text-decoration: none;
+         font-size:1.2em;
+         color: #FFF;
+        border-bottom: solid 0.03125em #FFFF;
+         border-top: solid 0.03125em #FFFF;
+        -webkit-transition: background-color 1s;
+        -moz-transition: background-color 1s;
+        -o-transition: background-color 1s;
+         transition: background-color 1s;
+        }
+                  
+      
+.Menu a:hover ,.MenuAv a:hover, .MenuEstadi a:hover{
+         background-color: rgba(255,255,255,0.05);
+        -webkit-transition: background-color 1s;
+        -moz-transition: background-color 1s;
+        -o-transition: background-color 1s;
+        transition: background-color 1s;
+            }
+        
+
+
+.Menu ul.estad, .MenuAv ul.estad, .MenuEstadi ul.estad{
+          display:none;
+          list-style-type: none;
+          position: absolute;
+          top:0em;
+          left:6.8em;
+          padding:0;
+          z-index: 90;
+          }
+        
+.Menu ul.estad li, .Menu ul.tiket li, .MenuAv ul.tiket li, .MenuEstadi ul.estad li, .MenuEstadi ul.tiket li{
+          text-align: left;
+          background-image: none;
+          background-color: #3b8bb3;
+          border-bottom: solid 0.03125em #FFF;            
+           }
+       
+.Menu li:hover ul.estad, .Menu li:hover ul.tiket, .MenuAv li:hover ul.tiket, .MenuEstadi li:hover ul.estad,
+.MenuEstadi li:hover ul.tiket{
+                                display:inline-block;
+                                }
+       
+.Menu ul.tiket, .MenuAv ul.tiket, .MenuEstadi ul.tiket{
+           display:none;
+           list-style-type: none;
+           position: absolute;
+           top:2.99em;
+           left:0em;
+           padding:0;
+           z-index: 90;
+           }
+
+
+
+
+/*Estilo que se muestra para el menù de reporte de bùsqueda Avanzada*/
+.MenuAv{
+      
+           clear: both;
+          position: absolute;
+          top:67px;
+          left:40%;
+          width: 50%;
+          margin:0em;    
+      }  
+.MenuEstadi{
+      
+           clear: both;
+          position: absolute;
+          top:67px;
+          left:38%;
+          width: 50%;
+          margin:0em;    
+      }  
+
+
+/*Estilos para los difentes titulos que se muestar*/
+.ReportAV{
+        bottom:45px;
+        position: relative;
+        color: #000; 
+        background: #C4C7D6;
+      }
+
+
+.subTituloIndex h1{
+        top:1px;
+      left:39%;
+    }
+
+.subTituloAsig h1{
+        top:-5px;
+      left: 33.2%;
+    }   
+
+.subTituloAbierto h1, .subTitulCerrado h1{
+        top:1px;
+      left: 33%;  
+}
+
+.subTitulo h1 {
+      top:1px;
+    left: 36%;
+ }
+
+
+
+.subTituloEstadi0 legend{
+    top:10px;
+    left: 30%;
+ font-size:smaller
+    }
+
+.subTituloEstadi legend{
+    top:150px;
+    left: 35%;
+}
+
+
+.subTituloReportAv h1{
+      top:-4px;
+    left: 36%;
+}
+
+
+.subTituloEstadi legend,.subTituloEstadi0 legend,.subTituloReportAv h1, .subTitulo h1, .subTitulCerrado h1, .subTituloAbierto h1, .subTituloAsig h1, .subTituloIndex h1{
+         padding: 2px;
+         width:480px;
+        position: absolute;
+        text-align:center;
+        text-shadow: 4px 2px 1px rgba(150, 150, 150, 1);
+         color: black;
+          }
+
+
+
+/*Estilo para la posiciòn de la tabla de bùsqueda*/
+
+
+.TablaBusqIndex, .TablaBusqCerrado, .TablaBusqAbierto, .TablaBusquedaAsg{
+           position:relative;
+           bottom:125px;
+          left:30%;
+          width: 520px;
+          height: 60px;
+
+        }
+
+.TablaBusqDept{
+  position:relative;
+           bottom:20px;
+          left:30%;
+          width: 520px;
+          height: 60px;
+}
+.TablaBusqAgente{
+  position:relative;
+          bottom:65px;
+          left:30%;
+          width: 520px;
+          height: 60px;
+}
+
+
+
+ 
+ /*Estilo para la posiciòn de la tabla en general de datos*/
+.tablainf{
+          position: relative;
+           bottom: 200px;
+           color: #000; 
+          background: #C4C7D6;
+ 
+   }
+
+.tablainf table 
+{       left: -8px;
+        top: -9px; 
+        
+         }
+
+.TablaEstadi{
+      position: relative;
+       bottom: 85px;
+       color: #000; 
+ }
+
+.TablaEstadi1{
+        position: relative;
+         bottom: 130px;
+         color: #000; 
+}
+
+
+.MarcoEncabezado>.TablaFechDepart, .MarcoEncabezado>.TablaFechTema,.MarcoEncabezado>.TablaFechEmpl{
+     position:relative;
+        top:10px;
+        left:25%;
+        /*width:45%;*/
+        /*width:610px;*/
+        width: 620px;
+        height:100px;
+       padding: 0px;
+        font-family: Georgia, "Times New Roman", serif;
+      font-size:smaller;
+             
+
+ }
+ .TablaDetalleDeptOrigen{
+  position: relative;
+         bottom: 85px;
+         left:5%;
+         color: #000; 
+         width: 90%;
+       background: #FFFFFF;
+ }
+
+ .TablaDetalleAgentes{
+  position: relative;
+         bottom: 65px;
+         left:5%;
+         color: #000; 
+         width: 90%;
+       background: #FFFFFF;
+ }
+
+
+
+
+
+.TablaEstadiEmpl,  .TablaEstadiTema, .TablaEstadiDeptOrigen{
+       position: relative;
+         bottom: 100px;
+         left:5%;
+         color: #000; 
+         width: 90%;
+       background: #FFFFFF;
+
+}
+
+.TablaEstadiDept{
+       position: relative;
+         bottom: 100px;
+         left:18%;
+         color: #000; 
+         width: 65%;
+       background: #FFFFFF;
+
+}
+
+
+
+/*Estilo para la posiciòn de la tabla de Utilidades*/
+.Utilidad,.Utilidad1{
+        padding: 1px;
+        width: 180px;
+         position:relative;
+          top:8px;
+          left:4%;
+    }
+
+  .Utilidad p{
+      font-family: Georgia, "Times New Roman", serif;
+      font-size:smaller
+
+  }
+
+ 
+  .Utilidad1 p, .Utilidad1 legend{
+      font-family: Georgia, "Times New Roman", serif;
+      font-size:small;
+
+  }
+
+
+/*Efecto graficos de las pantallas*/
+ .TablaBusqIndex, .TablaBusqCerrado, .TablaBusqAbierto, .TablaBusquedaAsg, .TablaFechDepart, .TablaFechTema,.TablaFechEmpl,.Utilidad,.Utilidad1,.TablaBusqDept,.TablaBusqAgente{
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+    border-radius: 15px;
+
+
+background: rgba(235,232,235,1);
+background: -moz-linear-gradient(left, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(235,232,235,1)), color-stop(18%, rgba(227,225,227,1)), color-stop(34%, rgba(219,219,219,1)), color-stop(74%, rgba(226,226,226,1)), color-stop(100%, rgba(230,230,230,1)));
+background: -webkit-linear-gradient(left, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+background: -o-linear-gradient(left, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+background: linear-gradient(to right, rgba(235,232,235,1) 0%, rgba(227,225,227,1) 18%, rgba(219,219,219,1) 34%, rgba(226,226,226,1) 74%, rgba(230,230,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe8eb', endColorstr='#e6e6e6', GradientType=1 );
+}
+
+
+.TablaEstadiDeptOrigen a, .TablaEstadiDept a, .TablaEstadiTema a, .TablaEstadiEmpl a, .LineaTab a, .TablaIndividualAbierto a, .TablaIndividualCerrado a, .TablaTotal a{
+ display:inline-block;
+     padding:0.8em 0.5em;
+      min-width: 0em;
+       background-color:#FFFF;
+        text-decoration: none;
+         font-size:0.9em;
+         color: black;
+        border-bottom: solid 0.03125em #FFFF;
+         border-top: solid 0.03125em   #FFFF;
+
+        -webkit-transition: background-color 1s;
+        -moz-transition: background-color 1s;
+        -o-transition: background-color 1s;
+         transition: background-color 1s;
+   
+
+}
+
+
+.TablaEstadiDeptOrigen a:hover, .TablaEstadiDept a:hover, .TablaEstadiTema a:hover, .TablaEstadiEmpl a:hover, .LineaTab a:hover,.TablaIndividualAbierto a:hover, .TablaIndividualCerrado a:hover, .TablaTotal a:hover{
+    color: #3A79DF;
+  text-decoration: underline;
+
+}
+
+.Ayuda,.Ayudadestino{
+position: relative;
+left:85%;
+bottom:230px;
+position: relative;
+width: 100px;
+height: 80px;
+}
+
+.AyudaDetalle{
+  position: relative;
+left:85%;
+bottom:170px;
+position: relative;
+width: 100px;
+height: 80px;
+}
+
+.AyudaIndex{
+  position: relative;
+left:82%;
+bottom:240px;
+position: relative;
+width: 100px;
+height: 80px;
+}
+
+
+.AyudaCeAbAs{
+ position: relative;
+left:82%;
+bottom:260px;
+position: relative;
+width: 100px;
+height: 80px;  
+}
+
+.AyudaIndividualDetalle{
+   position: relative;
+left:85%;
+bottom:90px;
+position: relative;
+width: 100px;
+height: 80px;
+}
+
+
+
+
+.Ayuda p, .AyudaDetalle p, .AyudaCeAbAs p, .AyudaIndex p, .AyudaIndividualDetalle p{
+  color:black;
+    
+  }
+
+.Ayuda input:hover, .TablaFechDepart input:hover, .AyudaCeAbAs input:hover, .AyudaIndex input:hover, .TablaBusqDept input:hover, .TablaBusqIndex input:hover,.TablaBusqCerrado input:hover, .TablaBusqAbierto input:hover, .TablaBusquedaAsg input:hover, .AyudaDetalle input:hover, .Ayudadestino input:hover{
+filter:alpha(opacity=90); 
+-moz-opacity: 0.65; 
+opacity: 0.65;
+position: relative; 
+top: -1px;
+cursor:allowed;
+
+}
+
+
+
+#demoIzq /*, #demoDer */{ border:1px dashed; width:296px; background-color:#EAEAEA; text-align:center; }
+
+/*#demoDer { float:right; position:relative; }*/
+
+#lista
+{
+  position:absolute;
+  width:141px;
+  background-color:#EAEAEA; color:#000000;
+  border:1px dotted; border-color:#000000;
+  z-index:1;
+  top:45px;
+  left:76px;
+  display:none;
+}
+
+.resaltado
+{
+  background-color:#FFFFFF; color:#000000;
+  cursor:pointer;
+}
+
+.normal
+{
+  background-color:#EAEAEA; color:#000000;
+}
+
+
+
+.TodaslasTablas{
+   position: relative;
+  margin: 0;
+  padding: 0;
+  width: 900px;
+  bottom:150px;
+   left:20%;
+}
